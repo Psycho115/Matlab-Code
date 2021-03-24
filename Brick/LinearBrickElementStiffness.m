@@ -37,7 +37,7 @@ function[w]=Stiffness(E,NU,x1,y1,z1,x2,y2,z2,x3,y3,z3,x4,y4,z4,x5,y5,z5,x6,y6,z6
 % LinearBrickElementStiffness This function returns the element
 % stiffness matrix for a linear brick
 % element with modulus of elasticity
-% E, Poisson¡¯s ratio NU, coordinates of
+% E, Poissonï¿½ï¿½s ratio NU, coordinates of
 % node 1 (x1,y1,z1), coordinates
 % of node 2 (x2,y2,z2), coordinates of
 % node 3 (x3,y3,z3), coordinates of
@@ -837,12 +837,12 @@ return
 end
 
 function [D,W] = GaussInt( i )
-%  ¼ÆËã¸÷¸ßË¹»ý·ÖµãµÄ×ø±êºÍ»ý·ÖÈ¨Öµ
-%  ÊäÈë²ÎÊý£º
-%     i  -- »ý·ÖµãÖ¸±ê
-%  ·µ»ØÖµ£º
-%     D  -- »ý·Öµã×ø±ê
-%     W  -- »ý·ÖµãÈ¨Öµ
+%  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¹ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½È¨Öµ
+%  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+%     i  -- ï¿½ï¿½ï¿½Öµï¿½Ö¸ï¿½ï¿½
+%  ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½
+%     D  -- ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½
+%     W  -- ï¿½ï¿½ï¿½Öµï¿½È¨Öµ
 GXY=[-0.577350269189626;
     0.577350269189626];
 WXY=[1.0;
