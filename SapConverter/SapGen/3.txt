@@ -1,0 +1,1 @@
+Frame=1583  SectionType=Pipe AutoSelec=N.A.   AnalSect=P245.00X16.00   DesignSect=P245.00X16.00      MatProp=Default
